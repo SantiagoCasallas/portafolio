@@ -1,0 +1,28 @@
+# Dependencies and build output
+node_modules/
+dist/
+.angular/
+coverage/
+.pnpm-store/
+
+# Hosting and local agent state
+.vercel/
+.sites-checkout/
+.sites-checkout-*/
+.sites-runtime/
+.openai/
+.agents/
+.codex/
+.aws/
+
+# Secrets and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
